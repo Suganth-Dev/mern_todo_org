@@ -8,7 +8,7 @@ export default function Todo(){
     const [error, setError] = useState("")
     const [message, setMessage] = useState("")
     const [editId, setEditId] = useState(-1)
-    const apiUrl = "http://localhost:8000"
+    const apiUrl = "https://mern-todo-backend-x9zj.onrender.com"
 
     //Edit
     const[editTitle,setEditTitle] = useState("")
